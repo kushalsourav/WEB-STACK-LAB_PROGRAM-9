@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+ .card {
+     display: grid;
+     width: 250px;
+     grid-template-columns: 250px;
+     grid-template-rows: 200px auto;
+     background-color: #e7e7e7;
+     border-radius: 16px;
+ }
+ .card-image {
+     width: 100%;
+     height: 100%;
+     background-size: auto;
+ }
+ 
+ .card-description {
+     padding: 20px 0 25px 24px;
+ }
+ .card-title {
+     font-size: 24px;
+     font-weight: 500;
+     margin: 5px 0;
+ }
+ .card-price {
+     font-size: 18px;
+     font-weight: 700;
+     color: #087deb;
+     margin: 5px 0;
+ }
+ .card-small {
+     color: rgb(156, 156, 156);
+     font-size: 14px;
+     font-weight: 700;
+ }
+ .card-address {
+     color: rgba(77, 77, 77, 0.6);
+     font-size: 16px;
+     font-weight: 400;
+     margin: 5px 0 10px 0;
+ }
+ .card-icon {
+     color: #087deb;
+     margin-right:  10px;
+     font-size: 14px;
+ }
+ .card-items {
+     font-size: 12px;
+     margin-right: 10px;
+     color: rgb(53, 53, 53);
+     font-weight: 800;
+ }
+.btn-review {
+    height: 50px;
+    padding: 10px 20px;
+}
+ .reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+ }

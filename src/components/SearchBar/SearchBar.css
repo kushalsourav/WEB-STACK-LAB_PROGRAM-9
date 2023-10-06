@@ -1,0 +1,19 @@
+.searchbar {
+    width: 30%;
+    padding: 10px 20px;
+    border-color: #087deb;
+    outline: #087deb;
+    margin: 50px 500px ;
+    text-align: center;
+}
+.search {
+    position: relative;
+    
+}
+.search-icon {
+    position: absolute;
+    top: 34px;
+    right: 0;
+    color: #087deb;
+    padding-right: 10px;
+}
